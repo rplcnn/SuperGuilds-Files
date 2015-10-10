@@ -1,0 +1,29 @@
+# FILE VERSION: 0.8.9
+
+
+on load:
+# {PLAYER}
+# {TAB}
+# {YEAR}
+# {MONTH}
+# {DAY}
+# {HOUR}
+# {MINUTE}
+# {NOW}
+# {GUILD}
+# {GUILDLEVEL}
+# {PLAYERLEVEL}
+	set {enablescoreboard} to "true"
+	set {scoreboardheader} to "§7§l§m---§r §b§lGuilds §7§l§m---"
+	set {emptyland} to "§eEmpty"
+	set {emptyguild} to "§eNo Guild"
+	set {now} to "{MONTH}/{DAY}/{YEAR}"
+	set {scoreboardline::1} to "§7§l» §fPlayer:"
+	set {scoreboardline::2} to "§e{PLAYER}"
+	set {scoreboardline::3} to "§6{TAB}"
+	set {scoreboardline::4} to "§7§l» §fGuild:"
+	set {scoreboardline::5} to "§e{GUILD}"
+	set {scoreboardline::6} to "§a{TAB}"
+	set {scoreboardline::7} to "§7§l» §fLevel:"
+	set {scoreboardline::8} to "§e{PLAYERLEVEL}"
+	set {scoreboardline::9} to "§b{TAB}"
