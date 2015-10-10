@@ -1,0 +1,20 @@
+FILE VERSION: 0.8.9
+
+
+Market:
+  item1:
+    name: §bDiamond chestplate
+    lore: '§7Cost: §6250 gold'
+    item: diamond chestplate
+    gold-price: '250'
+    mana-price: '0'
+    iron-price: '0'
+    wood-price: '0'
+  item2:
+    name: §eNotch's sword
+    lore: '§7Cost: §6100 gold, §950 mana'
+    item: golden sword of sharpness 10
+    gold-price: '100'
+    mana-price: '50'
+    iron-price: '0'
+    wood-price: '0'
