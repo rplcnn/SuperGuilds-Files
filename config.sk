@@ -1,0 +1,48 @@
+#FILE VERSION: 0.8.9
+
+#         SUPER GUILDS
+on load:
+	set {autoupdater} to "true"
+# Prefix of all texts!
+	set {tag} to "§3§lSUPERGUILDS §f§l»§7"
+# Feature settings>
+# Example: {disableworlds} to "world_nether, world_the_end"
+	set {disabledworlds} to "none"
+	set {chatcontrolenabled} to "true"
+	set {claimenabled} to "true"
+	set {petsenabled} to "true"
+	set {motdenabled} to "true"
+	set {enablehomes} to "true"
+	set {enablesethomes} to "true"
+	set {levelGainMessages} to "true"
+# Claim settings>
+	set {claimpvp} to "true"
+	set {startwithclaim} to "true"
+	set {startingland} to 1
+	set {buyclaimCostGold} to 200
+	set {buyclaimCostMana} to 5000
+	set {buyclaimCostWood} to 0
+	set {buyclaimCostIron} to 0
+# Start settings for new guilds>
+	set {startslot} to 4
+	set {startgold} to 100
+	set {startmana} to 10
+	set {startwood} to 0
+	set {startiron} to 0
+# PVP settings >
+# Guild members pvp
+	set {guildpvp} to "true"
+	set {warStartMember} to 4
+# If yaml file of guild is not exist guild automatically removed.
+	set {nofilepurge} to "true"
+# Level settings>
+	set {playerKillLevel} to 0.2
+	set {bossKillLevel} to 2
+	set {passiveMobKill} to 0.1
+	set {activeMobKill} to 0.1
+	set {onMineGold} to 0.1
+	set {onMineMana} to 0.1
+	set {onMineIron} to 0.1
+	set {onMineWood} to 0.1
+	set {guildCreateLevel} to 40
+	set {mapGiveLevel} to 10
