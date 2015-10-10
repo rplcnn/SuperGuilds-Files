@@ -1,0 +1,118 @@
+#FILE VERSION: 0.8.9
+
+
+on load:
+#Townhall Level I:
+	set {Build_Townhall_Gold::1} to 50
+	set {Build_Townhall_Iron::1} to 100
+	set {Build_Townhall_Mana::1} to 5
+	set {Build_Townhall_Wood::1} to 100
+	set {Build_Townhall_Build_Seconds::1} to 100
+#Townhall Level II:
+	set {Build_Townhall_Gold::2} to 500
+	set {Build_Townhall_Iron::2} to 0
+	set {Build_Townhall_Mana::2} to 15
+	set {Build_Townhall_Wood::2} to 150
+	set {Build_Townhall_Build_Seconds::2} to 100
+#Townhall Level III:
+	set {Build_Townhall_Gold::3} to 2000
+	set {Build_Townhall_Iron::3} to 0
+	set {Build_Townhall_Mana::3} to 50
+	set {Build_Townhall_Wood::3} to 500
+	set {Build_Townhall_Build_Seconds::3} to 100
+#Townhall Level IV:
+	set {Build_Townhall_Gold::4} to 5000
+	set {Build_Townhall_Iron::4} to 100
+	set {Build_Townhall_Mana::4} to 150
+	set {Build_Townhall_Wood::4} to 1500
+	set {Build_Townhall_Build_Seconds::4} to 120
+#Store Level I:
+	set {Build_Store_Gold::1} to 500
+	set {Build_Store_Iron::1} to 30
+	set {Build_Store_Mana::1} to 25
+	set {Build_Store_Wood::1} to 500
+	set {Build_Store_Build_Seconds::1} to 40
+#Store Level II:
+	set {Build_Store_Gold::2} to 1000
+	set {Build_Store_Iron::2} to 50
+	set {Build_Store_Mana::2} to 50
+	set {Build_Store_Wood::2} to 1000
+	set {Build_Store_Build_Seconds::2} to 50
+#Store Level III:
+	set {Build_Store_Gold::3} to 1500
+	set {Build_Store_Iron::3} to 75
+	set {Build_Store_Mana::3} to 75
+	set {Build_Store_Wood::3} to 1500
+	set {Build_Store_Build_Seconds::3} to 60
+#Store Level IV:
+	set {Build_Store_Gold::4} to 2000
+	set {Build_Store_Iron::4} to 100
+	set {Build_Store_Mana::4} to 100
+	set {Build_Store_Wood::4} to 2000
+	set {Build_Store_Build_Seconds::4} to 70
+#Store Level V:
+	set {Build_Store_Gold::5} to 2500
+	set {Build_Store_Iron::5} to 120
+	set {Build_Store_Mana::5} to 150
+	set {Build_Store_Wood::5} to 2500
+	set {Build_Store_Build_Seconds::5} to 80
+#Store Level VI:
+	set {Build_Store_Gold::6} to 3000
+	set {Build_Store_Iron::6} to 150
+	set {Build_Store_Mana::6} to 200
+	set {Build_Store_Wood::6} to 3000
+	set {Build_Store_Build_Seconds::6} to 90
+#Store Level VII:
+	set {Build_Store_Gold::7} to 3500
+	set {Build_Store_Iron::7} to 200
+	set {Build_Store_Mana::7} to 250
+	set {Build_Store_Wood::7} to 3500
+	set {Build_Store_Build_Seconds::7} to 100
+#Store Level VIII:
+	set {Build_Store_Gold::8} to 4000
+	set {Build_Store_Iron::8} to 250
+	set {Build_Store_Mana::8} to 300
+	set {Build_Store_Wood::8} to 4000
+	set {Build_Store_Build_Seconds::8} to 110
+#Sawmill Level I:
+	set {Build_Sawmill_Gold::1} to 120
+	set {Build_Sawmill_Iron::1} to 5
+	set {Build_Sawmill_Mana::1} to 5
+	set {Build_Sawmill_Wood::1} to 100
+	set {Build_Sawmill_Build_Seconds::1} to 70
+#Sawmill Level II:
+	set {Build_Sawmill_Gold::2} to 300
+	set {Build_Sawmill_Iron::2} to 20
+	set {Build_Sawmill_Mana::2} to 20
+	set {Build_Sawmill_Wood::2} to 200
+	set {Build_Sawmill_Build_Seconds::2} to 80
+#Sawmill Level III:
+	set {Build_Sawmill_Gold::3} to 700
+	set {Build_Sawmill_Iron::3} to 50
+	set {Build_Sawmill_Mana::3} to 50
+	set {Build_Sawmill_Wood::3} to 300
+	set {Build_Sawmill_Build_Seconds::3} to 90
+#Sawmill Level IV:
+	set {Build_Sawmill_Gold::4} to 1500
+	set {Build_Sawmill_Iron::4} to 100
+	set {Build_Sawmill_Mana::4} to 100
+	set {Build_Sawmill_Wood::4} to 700
+	set {Build_Sawmill_Build_Seconds::4} to 100
+#Alchemist Level I:
+	set {Build_Alchemist_Gold::1} to 750
+	set {Build_Alchemist_Iron::1} to 250
+	set {Build_Alchemist_Mana::1} to 150
+	set {Build_Alchemist_Wood::1} to 500
+	set {Build_Alchemist_Build_Seconds::1} to 200
+#Alchemist Level II:
+	set {Build_Alchemist_Gold::2} to 1500
+	set {Build_Alchemist_Iron::2} to 500
+	set {Build_Alchemist_Mana::2} to 300
+	set {Build_Alchemist_Wood::2} to 1500
+	set {Build_Alchemist_Build_Seconds::2} to 300
+#Alchemist Level III:
+	set {Build_Alchemist_Gold::3} to 2500
+	set {Build_Alchemist_Iron::3} to 500
+	set {Build_Alchemist_Mana::3} to 500
+	set {Build_Alchemist_Wood::3} to 2000
+	set {Build_Alchemist_Build_Seconds::3} to 500
