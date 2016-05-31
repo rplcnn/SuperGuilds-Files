@@ -1,0 +1,67 @@
+on death:
+	victim is player
+	set {_sayim} to 30
+	loop all armor stands:
+		if name of loop-entity contains "'in cesedi":
+			delete loop-entity
+	spawn an armor stand at victim
+	set {_s} to last spawned entity
+	run victim command "/entitydata @e[type=ArmorStand,r=5] {Rotation:[30f],Pose:{Head:[54f,335f,0f],LeftLeg:[256f,0f,0f],RightLeg:[253f,0f,0f]}}" as op
+	set is visible of {_s} to true
+	set show base plate of {_s} to false
+	set has gravity of {_s} to false
+	set show arms of {_s} to true
+	set is small of {_s} to true
+	set helmet of {_s} to victim's skull
+	set display name of last spawned entity to "&c%victim%'in cesedi"
+	if victim's tool is not air:
+		set tool of {_s} to victim's tool
+	else:
+		set tool of {_s} to bone
+	if victim's chestplate is not air:
+		set chestplate of {_s} to victim's chestplate
+	else:
+		set chestplate of {_s} to leather chestplate
+	if victim's chestplate is not air:
+		set leggings of {_s} to victim's leggings
+	else:
+		set leggings of {_s} to leather leggings
+	if victim's boots is not air:
+		set boots of {_s} to victim's boots
+	else:
+		set boots of {_s} to leather boots
+	colour {_s}'s chestplate red
+	colour {_s}'s leggings red
+	colour {_s}'s boots red
+	while {_sayim} is greater than 0:
+		remove 1 from {_sayim}
+		wait 1 seconds
+	loop all armor stands:
+		if name of loop-entity contains "'in cesedi":
+			delete loop-entity
+			
+on quit:
+	loop all armor stands:
+		if name of loop-entity contains "'in cesedi":
+			delete loop-entity
+			
+on damage:
+	name of victim contains "'in cesedi"
+	cancel event
+
+on entity interact:
+	name of event-entity contains "cesedi"
+	cancel event
+	if name of event-entity contains "%player%":
+		send "&cKendinin ruhunu çalamazsın."
+		stop
+	if name of player's tool is "&cRuh Tırpanı":
+		if player's tool is diamond hoe:
+			give 1 ghast tear named "&eRuh taşı" to player
+			send "&aBu cesetten ruh tırpanı ile 1 ruh taşı kazandın." to player
+			delete event-entity
+			strike lightning effect at victim
+		else:
+			send "&cElindeki ruh tırpanı değil."
+	else:
+		send "&cElindeki ruh tırpanı değil."
